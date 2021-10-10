@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheets" href="/public/css/manifesto.css">
+  <title>newtype-zeon</title>
+</head>
+
+<body>
+  <h1>Manifesto</h1>
+
+  <p>Nudging the bounds of perfection</p>
+
+  <ul>
+    <li>know why you do what you do</li>
+    <li>never miss a chance for understanding</li>
+    <li>commit one hundred percent</li>
+    <li>always find yourself in others</li>
+
+</body>
+
+</html>
