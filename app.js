@@ -4,6 +4,25 @@ const app = express();
 
 const port = 3000;
 
+const Sequelize = require('sequelize')
+
+
+// const db = require("./util/database");
+
+const sequelize = new Sequelize("mydb", "ronnie", "F1ghtwar", {
+  host: "localhost",
+  dialect: "postgres",
+});
+
+sequelize
+  .authenticate()
+  .then(() => {
+    console.log('Connection has been established successfully.');
+  })
+  .catch(err => {
+    console.error('Unable to connect to the database:', err);
+  });
+
 const homeRoutes = require("./routes/home");
 
 const manifestoRoutes = require("./routes/manifesto")
